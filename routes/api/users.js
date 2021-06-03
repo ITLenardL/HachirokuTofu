@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const passport = require("passport")
 var LocalStrategy = require('passport-local').Strategy;
-const { User, Event } = require("../models")
+const { User, Event } = require("../../models")
 
 
 passport.use(new LocalStrategy(
@@ -101,5 +101,4 @@ router.get("/api/allevents", function (req, res) {
   })
 })
 
-
-module.exports = router
+module.exports = router;
