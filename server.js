@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/db",
   }
 );
 
-app.use(require("./routes/API"))
+app.use(require("./routes"))
 app.listen(port, function () {
   console.log("app online", port)
 })
