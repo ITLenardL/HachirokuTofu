@@ -9,51 +9,61 @@ function About() {
     <div>
       <Hero backgroundImage="https://scontent-syd2-1.xx.fbcdn.net/v/t1.6435-9/67495217_909029336123818_846884632132583424_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=9267fe&_nc_ohc=yAnJQVj-FR0AX-2nAI3&_nc_ht=scontent-syd2-1.xx&oh=b480bed39b432a65c1b78cd32eebb884&oe=60DD874A">
         <h1>Hachiroku-Tofu</h1>
-        <h2>They're the Good Boys and Girls</h2>
+        <h2>AE86 fan page</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
+            <h1>Turn this into a blank block once we move nav under hero</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-6">
+            <p>
+              welcome to Hachirokutofu website, this website was created for blablabla please take a look around and subscribe to our mailing list and follow us on social media
+            </p>
+          </Col>
+          <Col size="md-6">
+            <p>
+              Image here (CSS needed for floated boxes)
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-6">
+            <p>
+              Image here (CSS needed to float boxes beside each other)
+            </p>
+          </Col>
+          <Col size="md-6">
+            <p>
+              Some words from the club creator "mr tofu" (insert inspirational quote)
+            </p>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-              consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-              sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-              gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-              turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-              tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-              volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-              mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-              tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
-            </p>
-            <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-              malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-              ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-              Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-              porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
-            </p>
-            <p>
-              Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
-              tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh
-              sit amet odio lobortis ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-              Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit mi, non mattis enim
-              congue at. Proin mi lectus, ullamcorper id hendrerit eu, ultricies vitae lacus. Nunc
-              vehicula, erat eget laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-              nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae, elementum eget lorem.
-              Maecenas vestibulum volutpat orci eu pharetra. Praesent vel blandit ante, nec faucibus
-              libero. Sed ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id dapibus
-              eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
-              interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
-              massa.
-            </p>
+            <h1>Image block here button on top (BLOG) </h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h1>latest post from BLOG</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h1>GALLERY CAROUSEL</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h1>Image block here button on top (E-COMM)</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h1>top/sale items 4 cards (carousel?)</h1>
           </Col>
         </Row>
       </Container>
