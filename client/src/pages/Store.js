@@ -1,26 +1,25 @@
-import React from "react";
-import Hero from "../components/Hero";
-import Container from "../components/Container";
+import React, { Component } from "react";
+// import Card from "../components/Card";
+// import Alert from "../components/Alert";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Blog from "./Blog";
-import Gallery from "./Gallery";
-// import Search from "./Search";
-import Store from "./Store";
 
-function About() {
-  return (
-    <div>
-      <Hero backgroundImage="https://scontent-syd2-1.xx.fbcdn.net/v/t1.6435-9/67495217_909029336123818_846884632132583424_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=9267fe&_nc_ohc=yAnJQVj-FR0AX-2nAI3&_nc_ht=scontent-syd2-1.xx&oh=b480bed39b432a65c1b78cd32eebb884&oe=60DD874A">
-        <h1>Hachiroku-Tofu</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero>
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
-          </Col>
-        </Row>
+class Store extends Component {
+
+  render() {
+    return (
+      <div>
+        <h1 className="text-center">Store</h1>
+        <h3 className="text-center">
+          Discover all the Hachirock-Tofu goods you need and all the ones you didn't know you wanted!
+        </h3>
+        {/* <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
+        <h1 className="text-center">
+          Made friends with {this.state.matchCount} pups so far!
+        </h1>
+        <Alert style={{ opacity: this.state.match ? 1 : 0 }} type="success">
+          Yay! That Pup Liked You Too!!!
+        </Alert> */}
         <Row>
           <Col size="md-12">
             <p>
@@ -61,12 +60,9 @@ function About() {
           </Col>
         </Row>
 
-        <Store />
-        <Gallery />
-        <Blog />
-      </Container>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
-export default About;
+export default Store;
