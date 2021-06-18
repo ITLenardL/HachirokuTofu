@@ -3,10 +3,12 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Blog from "./Blog";
-import Gallery from "./Gallery";
+import Section from "../components/Section";
+import dummyText from "../dummyText";
+import ScrollStore from "./Store";
+import ScrollGallery from "./Gallery";
+import ScrollBlog from "./Blog";
 // import Search from "./Search";
-import Store from "./Store";
 
 function About() {
   return (
@@ -26,6 +28,12 @@ function About() {
             <p>
               welcome to Hachirokutofu website, this website was created for blablabla please take a look around and subscribe to our mailing list and follow us on social media
             </p>
+            <Section
+              title="About"
+              subtitle={dummyText}
+              dark={true}
+              id="aboutScroll"
+            />
           </Col>
           <Col size="md-6">
             <p>
@@ -53,16 +61,34 @@ function About() {
         <Row>
           <Col size="md-12">
             <h1>latest post from BLOG</h1>
+            <Section
+              title="Blog"
+              subtitle={dummyText}
+              dark={false}
+              id="blogScroll"
+            />
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
             <h1>GALLERY CAROUSEL</h1>
+            <Section
+              title="Gallery"
+              subtitle={dummyText}
+              dark={true}
+              id="galleryScroll"
+            />
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
             <h1>Image block here button on top (E-COMM)</h1>
+            <Section
+              title="Store"
+              subtitle={dummyText}
+              dark={false}
+              id="storeScroll"
+            />
           </Col>
         </Row>
         <Row>
